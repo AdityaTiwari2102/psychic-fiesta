@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Aditya Tiwari">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skincare</title>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <style>
+          h2 {
+            color: blue;
+          }
+          .h3-class {
+            font-size: 50px;
+          }
+          .parent-div {
+            display: flex;
+          }
+          .left-section {
+            text-align: center;
+            padding: 25px 33px;
+            font-family: 'Mr Dafoe', cursive;
+            background: rgba(255, 195, 124, 0.29);
+            width: 25%;
+          }
+          .right-section {
+            width: 75%;
+          }
+          .hero-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+          }
+          .dummy-class {
+            list-style: none;
+          }
+          .center-align {
+            text-align: center;
+            color: white;
+          }
+          .bg-image {
+            height: 500px;
+            background-image: url('https://images.cloudflareapps.com/EJzyxsCCQOeRa71a83tX_background-2.jpeg');
+            background-position: 300px 100px;
+          }
+          #button-element {
+            width: fit-content;
+            background: #E8B6D4;
+            border: none;
+            padding: 7px 31px;
+            border-radius: 36px;
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 500;
+          }
+          .card {
+            padding: 25px 20px;
+          }
+
+          .fa-camera {
+            color: green;
+            font-size: 44px;
+          }
+        </style>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul> -->
+      <div class="parent-div">
+        <div class="left-section">
+          <h2>Intro heading</h2>
+          <p>Some dummy text <br> Some dummy text <br> Some dummy text <br> Some dummy text <br> Some dummy text</p>
+          <i class="fa-solid fa-user"></i>
+          <i class="fa-solid fa-camera"></i>
+          <button id="button-element">Button</button>
+        </div>
+
+        <div class="right-section">
+          <img src="images\Hero image.jpg" alt="Hero image" class="hero-image">
+        </div>
+      </div>
+
+      <div class="container">
+
+        <ul class='d-flex'>
+          <li class='dummy-class p-3'>Point 1</li>
+          <li class='dummy-class p-3'>Point 2</li>
+          <li class='dummy-class p-3'>Point 3</li>
+          <li class='dummy-class p-3'>Point 4</li>
+        </ul>
+
+        <ul>
+          <li>Point 1</li>
+          <li>Point 1</li>
+          <li>Point 1</li>
+          <li>Point 1</li>
+        </ul>
+
+
+        <h2 style='text-align: center;'>Best Selling Products</h2>
+        <div class='d-flex'>
+          <div class="card" style="width: 18rem;">
+            <img src="images\Body lotion.jpg" class="card-img-top" alt="Some image" style="border-radius: 50%;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="images\Body lotion.jpg" class="card-img-top" alt="Some image">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="images\Body lotion.jpg" class="card-img-top" alt="Some image">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://s3.ap-south-1.amazonaws.com/mentormind/challenges/cover_images/000/000/168/original/824855943_640.jpg?1571828666" class="card-img-top" alt="Some image">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="bg-image">
+          <h4 class="center-align">H4 heading</h4>
+          <h1>H1 heading</h1>
+          <h2>H2 heading</h2>
+          <h3 class="h3-class">H3 heading</h3>
+          <h4>H4 heading</h4>
+          <h5>H5 heading</h5>
+          <h6>H6 heading</h6>
+          <p>Paragraph </p>
+        </div>
+      </div>
+
+
+
+    </body>
+</html>
