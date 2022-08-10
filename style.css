@@ -6,5 +6,71 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    /*transition: all 0.35s ease-out;*/
+}
+
+.icon-color {
+  color: red;
+  background-color: black;
+  border-radius: 50%;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+h2 {
+  color: blue;
+}
+.h3-class {
+  font-size: 50px;
+}
+.parent-div {
+  display: flex;
+}
+.left-section {
+  text-align: center;
+  padding: 25px 33px;
+  font-family: 'Mr Dafoe', cursive;
+  background: rgba(255, 195, 124, 0.29);
+  width: 25%;
+}
+.right-section {
+  width: 75%;
+}
+.hero-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.container li {
+  color: white;
+}
+.dummy-class {
+  list-style: none;
+}
+.center-align {
+  text-align: center;
+  color: white;
+}
+.bg-image {
+  height: 500px;
+  background-image: url('https://cdn.wallpapersafari.com/66/34/TnZ1Ol.jpg');
+  background-position: center;
+}
+#button-element {
+  width: fit-content;
+  background: #E8B6D4;
+  border: none;
+  padding: 7px 31px;
+  border-radius: 36px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+.card {
+  padding: 25px 20px;
+}
+
+.fa-camera {
+  color: green;
+  font-size: 44px;
 }
